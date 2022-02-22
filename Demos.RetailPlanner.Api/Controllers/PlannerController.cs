@@ -10,18 +10,22 @@ using System.Threading.Tasks;
 
 namespace Demos.RetailPlanner.Api.Controllers
 {
-    [Authorize]
+
+    //TODO: Secure
+    //[Authorize]
     [ApiController]
     [Route("api/[controller]")]    
     public class PlannerController : ControllerBase
     {
+        //TODO: Secure
         // The Web API will only accept tokens 1) for users, and 2) having the "access_as_user" scope for this API
-        static readonly string[] scopeRequiredByApi = new string[] { "access_as_user" };
+        //static readonly string[] scopeRequiredByApi = new string[] { "access_as_user" };
 
         [HttpGet]
         public FiscalYear Get(int year)
         {
-            HttpContext.VerifyUserHasAnyAcceptedScope(scopeRequiredByApi);
+            //TODO: Secure
+            //HttpContext.VerifyUserHasAnyAcceptedScope(scopeRequiredByApi);
 
             var fiscalYear = new FiscalYear(year);
             return fiscalYear;
