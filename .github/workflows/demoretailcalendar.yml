@@ -1,12 +1,12 @@
-name: Build and deploy .NET Core app to Linux WebApp demo445
+name: Build and deploy .NET Core app to Linux WebApp demoretailcalendar
 on:
   push:
     branches:
     - main
 env:
-  AZURE_WEBAPP_NAME: demo445
+  AZURE_WEBAPP_NAME: demoretailcalendar
   AZURE_WEBAPP_PACKAGE_PATH: Demos.RetailPlanner.Api/publish
-  AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.demo445_fea7 }}
+  AZURE_WEBAPP_PUBLISH_PROFILE: ${{ secrets.demoretailcalendar_8189 }}
   CONFIGURATION: Release
   DOTNET_CORE_VERSION: 5.0.x
   WORKING_DIRECTORY: Demos.RetailPlanner.Api
