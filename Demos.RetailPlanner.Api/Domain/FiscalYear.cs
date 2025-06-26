@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 
-
-namespace Demos.RetailPlanner.Domain
+namespace Demos.RetailPlanner.Api.Domain
 {
     public sealed class FiscalYear 
     {

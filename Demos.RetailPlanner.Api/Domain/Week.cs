@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Demos.RetailPlanner.Domain
+namespace Demos.RetailPlanner.Api.Domain
 {
     public class Week
     {

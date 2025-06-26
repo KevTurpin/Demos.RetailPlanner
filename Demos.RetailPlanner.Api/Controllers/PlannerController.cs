@@ -1,5 +1,4 @@
-﻿using Demos.RetailPlanner.Domain;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
@@ -7,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Demos.RetailPlanner.Api.Domain;
 
 namespace Demos.RetailPlanner.Api.Controllers
 {

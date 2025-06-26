@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Globalization;
+using System.Linq;
 
-namespace Demos.RetailPlanner.Domain
+namespace Demos.RetailPlanner.Api.Domain
 {
     public class Month
     {
@@ -21,7 +21,7 @@ namespace Demos.RetailPlanner.Domain
 
         public string FiscalMonth { get; }
         public int NumberOfWeeks => Weeks.Count;
-        public List<Week> Weeks {get; }
+        public List<Week> Weeks { get; }
         
     }
 }
